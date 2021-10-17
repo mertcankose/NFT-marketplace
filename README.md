@@ -4,8 +4,6 @@
 
 #
 
-<img align="right" width="350" src="./image.png"></img>
-
 ### Features
 
 - Mint
