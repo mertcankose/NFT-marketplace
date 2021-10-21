@@ -1,0 +1,10 @@
+.buttonBox {
+  @apply
+  flex
+  justify-center
+  space-x-6
+  m-4
+  p-2
+  border-2
+  border-gray-200
+}

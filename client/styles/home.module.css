@@ -1,0 +1,4 @@
+.container {
+  @apply
+  flex flex-col
+}

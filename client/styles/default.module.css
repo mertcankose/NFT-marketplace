@@ -1,0 +1,119 @@
+.container {
+  @apply min-h-screen
+  /*h-screen*/
+  flex flex-col 
+  justify-center 
+  items-center 
+  px-0 py-2
+}
+
+.main {
+  @apply px-20 py-0
+  flex
+  flex-col
+  justify-center
+  items-center
+  flex-1;
+}
+
+.title {
+  @apply m-0
+  leading-tight
+  text-6xl;
+}
+
+.title a {
+  @apply text-blue-600
+  no-underline;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  @apply no-underline;
+}
+
+.title,
+.description {
+  @apply text-center;
+}
+
+.description {
+  @apply my-6
+  leading-tight
+  text-2xl;
+}
+
+.code {
+  @apply bg-gray-50
+  rounded-md
+  p-3
+  text-xl
+  font-mono;
+}
+
+.grid {
+  @apply flex
+  items-center
+  justify-center
+  flex-wrap
+  max-w-3xl
+  mt-12
+  sm:w-full
+  sm:flex-col;
+}
+
+.card {
+  @apply m-4
+  p-6
+  text-left
+  text-inherit
+  no-underline
+  border border-solid border-gray-300
+  rounded-lg
+  w-5/11
+  transition-colors
+  ease-in
+  duration-100;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  @apply text-blue-600
+  border-blue-600;
+}
+
+.card h2 {
+  @apply mb-6
+  text-2xl
+  font-bold;
+}
+
+.card p {
+  @apply text-xl
+  leading-8;
+}
+
+.footer {
+  @apply w-full
+  h-25
+  border-t
+  border-solid
+  border-gray-200
+  flex
+  justify-center
+  items-center;
+}
+
+.footer a {
+  @apply flex
+  justify-center
+  items-center
+  flex-grow;
+}
+
+.logo {
+  @apply h-4
+  ml-2;
+}

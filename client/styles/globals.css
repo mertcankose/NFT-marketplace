@@ -13,11 +13,15 @@
   html {
     scroll-behavior: smooth;
   }
+  
+  a {
+    @apply text-blue-600 underline;
+  }
 }
 
 @layer components {
   html {
-    @apply bg-white text-gray-500 antialiased;
+    @apply antialiased;
   }
   .c-small {
     @apply max-w-screen-sm mx-auto px-4;
@@ -29,3 +33,4 @@
     @apply text-gray-900;
   }
 }
+
