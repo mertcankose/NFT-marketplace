@@ -1,2 +1,5 @@
 export { default as Close } from './Close'
+export { default as Eth } from './Eth'
+export { default as Heart } from './Heart'
 export { default as Profile } from './Profile'
+export { default as Solana } from './Solana'

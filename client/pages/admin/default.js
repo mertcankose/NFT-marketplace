@@ -1,6 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
-import styles from "../styles/default.module.css"
+import styles from "../../styles/default.module.css"
 
 function Default() {
   return (

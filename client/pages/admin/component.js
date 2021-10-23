@@ -1,5 +1,6 @@
-import styles from "../styles/component.module.css"
-import Button from "../components/button/button"
+import styles from "../../styles/component.module.css"
+import Button from "../../components/button/button"
+import Card from "../../components/card/card"
 
 function Component() {
   return (
@@ -27,6 +28,17 @@ function Component() {
 
       <div className="h-8 leading-8">
         <h1 className="align-middle text-center">Cards</h1>
+      </div>
+
+      <div className={styles.cardBox}>
+        <Card creator="mertcan" image="nft-1.jpeg" name="Monkey" like={4} price={5} coin="Eth" />
+        <Card creator="samet" image="nft-2.png" name="Monkey" like={4} price={5} coin="Sol" />
+        <Card creator="mert" image="nft-3.png" name="Monkey" like={4} price={5} coin="Eth" />
+        <Card creator="cz" image="nft-4.jpeg" name="Lion" like={4} price={5} coin="Sol" />
+        <Card creator="mertcan" image="nft-1.jpeg" name="Monkey" like={4} price={5} coin="Eth" />
+        <Card creator="samet" image="nft-2.png" name="Monkey" like={4} price={5} coin="Sol" />
+        <Card creator="mert" image="nft-3.png" name="Monkey" like={4} price={5} coin="Eth" />
+        <Card creator="cz" image="nft-4.jpeg" name="Lion" like={4} price={5} coin="Sol" />
       </div>
 
       <div className="h-8 leading-8">

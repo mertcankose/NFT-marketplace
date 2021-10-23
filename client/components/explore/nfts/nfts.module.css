@@ -1,0 +1,10 @@
+.container {
+  @apply
+  flex md:flex-col
+  flex-1
+  gap-8
+  flex-wrap
+  justify-center items-center
+  m-4
+  p-2
+}

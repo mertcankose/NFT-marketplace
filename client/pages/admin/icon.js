@@ -1,6 +1,6 @@
 import React from "react"
-import styles from "../styles/icon.module.css"
-import * as Icons from "../components/icons"
+import styles from "../../styles/icon.module.css"
+import * as Icons from "../../components/icons"
 
 function Icon() {
   return (

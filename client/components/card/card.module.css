@@ -1,0 +1,46 @@
+.container {
+  @apply
+  w-96
+  flex flex-col
+  px-4 py-6
+  border
+  border-solid
+  border-gray-100
+  rounded-lg
+  shadow-md
+  bg-white
+  space-y-3
+  transition-all
+  duration-300
+  hover:shadow-xl
+  cursor-pointer
+}
+
+@media screen and (max-width: 600px) {
+  .containerSpecial {
+    width: calc(100vw - 32px);
+  }
+}
+
+
+.cardHeader {
+  @apply
+  flex justify-between
+}
+.imageWrapper {
+  @apply
+  w-full
+  h-full
+  
+}
+
+.cardPrice {
+  @apply
+  flex justify-between
+  items-center
+}
+
+.cardInfo {
+  @apply
+  flex justify-between
+}
